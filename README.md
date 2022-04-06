@@ -3,16 +3,16 @@ aw-watcher-window
 
 Cross-platform window-Watcher for Linux (X11), macOS, Windows.
 
-[![Build Status](https://travis-ci.org/ActivityWatch/aw-watcher-window.svg?branch=master)](https://travis-ci.org/ActivityWatch/aw-watcher-window)
+[![Build Status](https://travis-ci.org/KomuTracker/aw-watcher-window.svg?branch=master)](https://travis-ci.org/KomuTracker/aw-watcher-window)
 
 ## How to install
 
-To install the pre-built application, go to https://activitywatch.net/downloads/
+To install the pre-built application, go to https://komutracker.net/downloads/
 
 To build your own packaged application, run `make package`
 
 To install the latest git version directly from github without cloning, run
-`pip install git+https://github.com/ActivityWatch/aw-watcher-window.git`
+`pip install git+https://github.com/nccasia/aw-watcher-window.git`
 
 To install from a cloned version, cd into the directory and run
 `poetry install` to install inside an virtualenv. You can run the binary via `aw-watcher-window`.
