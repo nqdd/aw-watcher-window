@@ -42,7 +42,7 @@ def main():
 
     client = ActivityWatchClient("aw-watcher-window", testing=args.testing)
 
-    bucket_id = "{}_{}".format(client.client_name, client.client_hostname)
+    bucket_id = "{}_{}".format(client.client_name, os.getlogin())#client.client_hostname)
     event_type = "currentwindow"
 
     client.create_bucket(bucket_id, event_type, queued=True)
