@@ -1,7 +1,7 @@
 .PHONY: build test package clean
 
 build:
-	poetry install
+	poetry install -vvv
 
 test:
 	aw-watcher-window --help
